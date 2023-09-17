@@ -1,18 +1,18 @@
-repos:
 -   repo: https://github.com/ambv/black
-    rev: 20.8b1
+    rev: 22.3.0
     hooks:
     - id: black
--   repo: https://gitlab.com/pycqa/flake8
-    rev: 3.8.4
+      language_version: python3
+      args:
+          - --config
+          - .code_quality/pyproject_black.toml
+
+
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+    rev: v0.0.287
     hooks:
-    - id: flake8
--   repo: https://github.com/timothycrosley/isort
-    rev: 5.7.0
-    hooks:
-    -   id: isort
--   repo: https://github.com/econchick/interrogate
-    rev: 1.4.0  
-    hooks:
-    - id: interrogate
-      args: [-vv, -i, --fail-under=80]
+      - id: ruff
+        args:
+          - --config
+          - .code_quality/ruff.toml
