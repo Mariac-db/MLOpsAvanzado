@@ -1,0 +1,8 @@
+poetry.lock
+01- hydra_experiments/Hidra/outputs/
+01- hydra_experiments/Hidra/__pycache__/
+01- hydra_experiments/Hidra/data/
+02-pycaret_mlops/.ipynb_checkpoints/
+.venv
+.vscode
+.DS_Store
