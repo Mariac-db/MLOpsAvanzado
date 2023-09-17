@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mlopscurso"
+version = "0.1.0"
+description = ""
+authors = ["Maria Durango <camiladurangob@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+scikit-learn = "^1.3.0"
+hydra-core = "^1.3.2"
+pre-commit = "^3.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
