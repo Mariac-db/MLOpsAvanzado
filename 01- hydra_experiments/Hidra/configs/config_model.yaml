@@ -1,0 +1,14 @@
+
+model:
+  default_model:
+    type: logistic_regression
+    hyperparameters:
+      C: 1.0
+      solver: 'lbfgs'
+      max_iter: 1000
+
+  linear_regression:
+    type: linear_regression
+    hyperparameters:
+      fit_intercept: true
+      normalize: false
