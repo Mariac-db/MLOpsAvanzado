@@ -7,6 +7,7 @@
 Este repositorio es como la entrada a una montaña rusa de conocimientos y habilidades de MLOps. 🎢 Prepárate para un viaje lleno de desafíos y descubrimientos en el emocionante mundo de:
 
 ## 🔥 MLOps en Acción 🔥
+- Mlops tools: wandb, mlflow, dvc,  Hydra, prefect, entre otros. 
 - **Nube:** Lleva tus modelos al cielo (¡nube!) con integración en AWS, GCP, Azure y más.
 - **CI/CD:** Automatiza tus flujos de trabajo de desarrollo y despliegue con CI/CD.
 - **LLM (Logística de Modelos de Aprendizaje):** Aprende a gestionar y versionar modelos como un verdadero ninja.
