@@ -8,3 +8,7 @@ poetry.lock
 .DS_Store
 02-pycaret_mlops/diamond-pipeline.pkl
 02-pycaret_mlops/.ipynb_checkpoints
+03-model_development/.fastai
+03-model_development/__pycache__
+03-model_development/wandb/
+03-model_development/artifacts/bdd_simple_1k:v0
