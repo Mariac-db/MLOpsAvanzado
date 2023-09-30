@@ -13,3 +13,4 @@ poetry.lock
 03-model_development/wandb/
 03-model_development/artifacts/bdd_simple_1k:v0
 03-model_development/data_split.csv
+03-model_development/artifacts/
