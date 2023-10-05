@@ -14,3 +14,9 @@ poetry.lock
 03-model_development/artifacts/bdd_simple_1k:v0
 03-model_development/data_split.csv
 03-model_development/artifacts/
+04-model_tracking_mlflow/mlruns
+backend.db
+04-model_tracking_mlflow/data
+04-model_tracking_mlflow/data_model_input
+
+
