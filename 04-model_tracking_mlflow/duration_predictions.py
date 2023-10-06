@@ -103,6 +103,7 @@ class ProcessingData:
         df_test = self.read_dataframe(
             os.path.join(raw_data_path, f"{dataset}_tripdata_2023-03.parquet")
         )
+        print(df_test.shape)
 
         target = 'duration'
         y_train = df_train[target].values
