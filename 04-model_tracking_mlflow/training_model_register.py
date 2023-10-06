@@ -102,5 +102,6 @@ if __name__ == '__main__':
     training_model = TrainingModel()
     training_model.train_rfr_model(tag = "rfr")
     training_model.train_xgboost_model(tag="xgboost")
+# mlflow ui --backend-store-uri sqlite:///backend.db --port 8080
 
     
